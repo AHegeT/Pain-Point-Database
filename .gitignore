@@ -1,3 +1,5 @@
+pain_points.csv
+ocr_pipeline.log
 .DS_Store
 venv/*
 */__pycache__/*
