@@ -14,11 +14,14 @@ from PIL import Image
 @dataclass
 class PainPoint:
     """A class to hold structured data for a single pain point."""
+    # Required fields (no default value)
     pain_point_id: str
     date_observed: str
     source_platform: str
     raw_text: str
     screenshot_link: str
+
+    # Optional fields (with default values)
     primary_quote: str = ""
     author_handle: str = ""
     engagement_score: int = 0
