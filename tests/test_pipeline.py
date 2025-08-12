@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw
 from pathlib import Path
 
 # Import the functions and class from your main script
-from process_batch import (
+from painpoint_pipeline.process_batch import ( # type: ignore
     get_text_from_image,
     archive_file,
     append_to_csv,
